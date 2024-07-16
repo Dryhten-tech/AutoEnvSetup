@@ -102,7 +102,7 @@ def is_valid_python_version(python_version):
 
 
 def main():
-    print("本程序将会检测环境并自动安装未安装的包或更新不匹配的版本,有自动检查镜像源速度的功能")
+    print("本程序将会检测环境并自动安装未安装的包或更新不匹配的版本,有自动检查镜像源速度的功能\n")
 
     use_conda = input("您是否使用Conda激活环境？(y/n): ").lower() == 'y'
     env_name = input("请输入虚拟环境的名称(留空则使用base环境): ")
